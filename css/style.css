@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap");
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Signika', sans-serif;
+    font-size: 72.5%;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vp;
+    padding: 15px;
+    
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 1px solid rgb(13, 197, 225);
+    border-radius: 15px;
+    box-shadow: 0 0 15px purple;
+    font-size: 2rem;
+
+}
+
+.calculator-display {
+    padding: 25px 15px;
+    width: 100%;
+    text-align: right;
+    border: 1px solid rgb(13, 197, 225);
+    border-radius: 15px;
+    overflow-x: auto;
+
+}
+
+.calculator-keypad {
+    display: flex;
+    width: 100%;
+    border: 1px solid rgb(13, 197, 225);
+    border-radius: 15px;
+    
+}
+
+.keypad-numbers {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 1px solid rgb(13, 197, 225);
+    border-radius: 15px;
+    
+}
+
+.keypad-button {
+    width: 25%;
+    padding: 15px 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgb(13, 197, 225);
+    border-radius: 15px;
+
+}
+
+.keypad-button:hover {
+    filter: brightness(90%);
+    transition: filter .55s;
+    
+}
+
+.keypad-button.pink {
+    background-color: rgba(255, 192, 203, 0.371);
+}
+
+.keypad-button.purple {
+    width: 50%;
+    background-color: rgba(175, 43, 236, 0.257);
+
+}
+
+.keypad-button.large {
+    width: 50%;
+    
+}
+
+.keypad-button.cian {
+    background-color: rgba(139, 222, 228, 0.527);
+}
